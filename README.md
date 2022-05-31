@@ -52,8 +52,6 @@ git clone
 $ https://github.com/netman5/hello-rails-react.git
 $ cd hello-rails-react
 ```
-```
-```
 
 #### Run project
 
