@@ -28,6 +28,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
+<<<<<<< HEAD
 To get a local copy up and running follow these simple example steps.
 
 
@@ -83,3 +84,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
