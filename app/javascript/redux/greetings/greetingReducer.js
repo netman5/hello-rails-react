@@ -2,12 +2,10 @@ import axios from "axios"
 
 const FETCH_GREETINGS = 'hello-rails-react/greetings/FETCH_GREETINGS'
 
-const getGreetings = (payload) => {
-  return {
-    FETCH_GREETINGS,
-    payload,
-  }
-}
+const getGreetings = (payload) => ({
+  type: FETCH_GREETINGS,
+  payload,
+})
 
 
 const initialState = {
@@ -16,7 +14,7 @@ const initialState = {
 
 export const fetchGreetingsFromApi = () => async (dispatch) => {
     const result = await axios.get('/v1/messages');
-    const data = result.data.greetings.message
+    const data = result.data.greetings
     dispatch(getGreetings(data));
   };
 
