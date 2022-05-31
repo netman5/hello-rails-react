@@ -64,12 +64,6 @@ $ cd hello-rails-react
 - ./bin/webpack-dev-server
 ```
 
-### Run Test
-
-  ```bash
-  - rspec spec/
-  ```
-
 ## Author
 
 👤 **Ola Ishola**
