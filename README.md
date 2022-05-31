@@ -1,24 +1,93 @@
-# README
+![](https://img.shields.io/badge/hellorails-dodger-blue.svg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Hell-rails-react
 
-* Ruby version
+> An app to practice combining React and Rails as a full stack app with redux as a state manager.
 
-* System dependencies
 
-* Configuration
+Additional description about the project and its features.
 
-* Database creation
+## Built With
 
-* Database initialization
+- Major language
+  - Ruby
+  - Rails
+  - RSpec
+  - PostgreSQL
+  - CSS
+  - React
+  - React-Router
+  - React-redux
 
-* How to run the test suite
+- Technologies used
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+- Git(version control)
+```
 
-* Deployment instructions
+## Getting Started
 
-* ...
+To get a local copy up and running follow these simple example steps.
+
+
+### Prerequisites
+
+- A text editor(preferably Visual Studio Code)
+
+### Install
+
+- [Git](https://git-scm.com/downloads)
+- [Ruby](https://www.ruby-lang.org/en/downloads/)
+- [PostgreSQL](https://www.postgresql.org/download/)
+- [Node.js](https://nodejs.org/en/download/)
+- `gem install rails`
+
+### Usage
+
+#### Clone this repository
+
+```bash
+git clone
+$ https://github.com/netman5/hello-rails-react.git
+$ cd hello-rails-react
+```
+```
+```
+
+#### Run project
+
+```bash
+- bundle install
+- npm install
+- rails s
+- ./bin/webpack-dev-server
+```
+
+### Run Test
+
+  ```bash
+  - rspec spec/
+  ```
+
+## Author
+
+👤 **Ola Ishola**
+
+- GitHub: [@netman5](https://github.com/netman5)
+- Twitter: [@Orlaish](https://twitter.com/Orlaish)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ola-ishola/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/netman5/hello-rails-react/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
